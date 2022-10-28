@@ -5,7 +5,7 @@ public class Founder {
 
     private String name;
     private String surname;
-    private int ageå;
+    private int age;
     private String birthPlace;
     private List<Announcement> announcements;
 
