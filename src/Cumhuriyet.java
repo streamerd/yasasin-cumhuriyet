@@ -1,18 +1,14 @@
 import java.util.Date;
-
 // Cumhuriyet : The Republic.
 public class Cumhuriyet {
-
     private String name;
     private Date dateFound;
-
     // Population was not known until the first census held in 1927 :13.464.564
     // for that reason, we will make this field String and mention as less than the first official count above.
     // just like this: "less than 13.464.564" ~ see Announcement.
     private String population;
     private String capital; 
     private String founderName;
-
     public Cumhuriyet(String name, Date dateFound, String capital, String population, String founderName) {
         this.name = name;
         this.dateFound= dateFound;
